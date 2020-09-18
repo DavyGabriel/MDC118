@@ -56,7 +56,5 @@ int main()
         printf("%s\n","reprovado por nota");
     }
 
-
-
     return 0;
 }

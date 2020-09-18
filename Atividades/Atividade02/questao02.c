@@ -17,11 +17,6 @@ int main()
         desconto = (valor * 10)/100;
         printf("%f\n",desconto);
     }
-    
-    
-    
-
-
 
     return 0;
 }
