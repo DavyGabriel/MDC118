@@ -13,8 +13,9 @@ int main()
     scanf("%d", &numero);
     print("digite um ponto flutuante:");
     scanf("%f", &valor);
+    detchar();
     printf("digite uma string:");
-    scanf("%s", nome); //string não precisa do &
+    scanf("%[^\n]s", nome); //string não precisa do &
 
     //scanf("%c %d %f %s", &ch, &numero, &valor, nome);
 
@@ -23,7 +24,7 @@ int main()
     printf("%.2f\n", valor); //casas depois da virgula %.2f (2 numeros), %.3f (3 numeros) e etc (de acordo com o numero de 0 do float).
     printf("%s\n", nome);
 
-    //printf("%c %d %.2f %s", ch, numero, valor, nome);
+    //printf("%c %5d %.2f %s", ch, numero, valor, nome);
 
 
     return 0;
